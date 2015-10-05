@@ -1,0 +1,50 @@
+<component name="testPackageforCi2" type="WMPackage" >
+<property name="component_name" value="testPackageforCi2"/>
+<property name="version" value="2.0" />
+<property name="build" value="20" />
+<property name="jvm" value="1.3.1" />
+<property name="publisher" value="" />
+<property name="description" value="first" />
+<property name="deploy_type" value="full" />
+<property name="enabled" value="yes" />
+<property name="browse" value="" />
+<property name="time" value="" />
+<property name="startup_services" value="" />
+<property name="shutdown_services" value="" />
+<property name="replication_services" value="" />
+<property name="dependencies" value="" />
+<component name="ns" ntype="intf" type="WMNode">
+<component name="testPackageForCi2" ntype="intf" type="WMNode">
+<acl_info><property name='exe' value='Internal' /></acl_info><component name="services" ntype="intf" type="WMNode">
+</component><component name="utils" ntype="intf" type="WMNode">
+</component></component></component><component name="code" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="code" />
+  <component name="classes" type="FileStruct" is_file="false" is_bin="false">
+    <property name="file_name" value="code\classes" />
+  </component>
+  <component name="jars" type="FileStruct" is_file="false" is_bin="false">
+    <property name="file_name" value="code\jars" />
+  </component>
+  <component name="source" type="FileStruct" is_file="false" is_bin="false">
+    <property name="file_name" value="code\source" />
+  </component>
+</component><component name="config" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="config" />
+</component><component name="doc" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="doc" />
+</component><component name="lib" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="lib" />
+</component><component name="pub" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="pub" />
+  <component name="index.html" type="FileStruct" is_file="true" is_bin="false" crc="832CA0E9477C064B3A6C4BBD17F9E0D6">
+    <property name="file_name" value="pub\index.html" />
+  </component>
+</component><component name="resources" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="resources" />
+</component><component name="templates" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="templates" />
+</component><component name="web" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="web" />
+</component><component name="manifest.v3" type="FileStruct" is_file="true" is_bin="false" crc="0D0C1173D86FCF221505CF618288103A">
+  <property name="file_name" value="manifest.v3" />
+</component></component>
