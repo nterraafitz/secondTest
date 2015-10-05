@@ -1,6 +1,6 @@
-<share_map timestamp="1444051668830">
+<share_map timestamp="1444051699408">
 <pkg_map>
 <cse name="testPackageForCi">
-<branch srv="is"><sr name="base-00000" auth="Administrator" date="1444051532714" is_env="true" bid="1.0" /><sr name="first" auth="Administrator" date="1444051666380" bid="2.0" ver="1"><comment>erstes Einchecken eines Packages</comment></sr><sr name="first" auth="Administrator" date="1444051696258" bid="3.0" ver="1" /></branch></cse>
+<branch srv="is"><sr name="base-00000" auth="Administrator" date="1444051532714" is_env="true" bid="1.0" /><sr name="first" auth="Administrator" date="1444051666380" bid="2.0" ver="1"><comment>erstes Einchecken eines Packages</comment></sr><sr name="first" auth="Administrator" date="1444051696258" bid="3.0" ver="1" /><sr name="asdf" auth="Administrator" date="1444053611977" bid="4.0" ver="1" /></branch></cse>
 </pkg_map>
 </share_map>
