@@ -1,0 +1,103 @@
+<environment name="myProject" author='Administrator' >
+<history>
+<entry user='Administrator' date='1444053721483' action='COMPOSE' >
+<src_path>git_repo:myProject/base-00000 ---&gt; git_repo:myProject/base-00001</src_path>
+</entry>
+</history>
+<definition_rules>
+<component name="is" type="WMIntegrationServer" >
+<property name='is_host' value='localhost'/>
+<property name='is_port' value='5555'/>
+<property name='is_user' value='Administrator'/>
+<property name='is_password' value='[cvp]ZmRibWJu'/>
+<property name='packages-discover-mode' value='2'/>
+<property name='conn_type' value='conn_plain'/>
+<property name='resolved_alias' value='is_9.7_local'/>
+<package_list>
+<component name="testPackageForCi" type="WMPackage" >
+<property name="component_name" value="is\packages\testPackageForCi"/>
+<property name="version" value="4.0" />
+<property name="build" value="40" />
+<property name="jvm" value="1.3.1" />
+<property name="publisher" value="Administrator" />
+<property name="description" value="asdf" />
+<property name="deploy_type" value="full" />
+<property name="enabled" value="yes" />
+<property name="browse" value="" />
+<property name="time" value="" />
+<property name="startup_services" value="" />
+<property name="shutdown_services" value="" />
+<property name="replication_services" value="" />
+<property name="dependencies" value="" />
+<revision-list>
+  <smi user="Administrator" date="1444053611977" bid="4.0" repo="git_repo" ename="myProject" />
+</revision-list><component name="ns" ntype="intf" type="WMNode">
+<component name="testPackageForCi" ntype="intf" type="WMNode">
+<acl_info><property name='exe' value='Internal' /></acl_info><component name="services" ntype="intf" type="WMNode">
+<component name="new_flowservice" ntype="flow" crc='F8E377521BD5D4EEA182852AB32F89CA' type="WMNode">
+<property name="file_name" value="ns\testPackageForCi\services\new_flowservice\node.ndf" /></component></component><component name="utils" ntype="intf" type="WMNode">
+</component></component></component><component name="code" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="code" />
+  <component name="classes" type="FileStruct" is_file="false" is_bin="false">
+    <property name="file_name" value="code\classes" />
+  </component>
+  <component name="jars" type="FileStruct" is_file="false" is_bin="false">
+    <property name="file_name" value="code\jars" />
+  </component>
+  <component name="source" type="FileStruct" is_file="false" is_bin="false">
+    <property name="file_name" value="code\source" />
+  </component>
+</component><component name="config" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="config" />
+</component><component name="doc" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="doc" />
+</component><component name="lib" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="lib" />
+</component><component name="pub" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="pub" />
+  <component name="index.html" type="FileStruct" is_file="true" is_bin="false" crc="10A24722D8B73C55649055CD7866E9F0">
+    <property name="file_name" value="pub\index.html" />
+  </component>
+</component><component name="resources" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="resources" />
+</component><component name="templates" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="templates" />
+</component><component name="web" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="web" />
+</component><component name="manifest.v3" type="FileStruct" is_file="true" is_bin="false" crc="B7082741C38F9853E2A2DB9EF0CFFD75">
+  <property name="file_name" value="manifest.v3" />
+</component></component>
+</package_list>
+<_deleted>
+<mc is_exclude="true" tp="ACLList" />
+<mc is_exclude="true" tp="WMPackage" cn="Default" />
+<mc is_exclude="true" tp="WMPackage" cn="NterraRestfulAPI" />
+<mc is_exclude="true" tp="WMAdapterList" />
+<mc is_exclude="true" tp="WMBrokerCore" />
+<mc is_exclude="true" tp="WMBrokerRef" />
+<mc is_exclude="true" tp="WMCacheManagerList" />
+<mc is_exclude="true" tp="WMCertificateList" />
+<mc is_exclude="true" tp="WMClusterConfig" />
+<mc is_exclude="true" tp="WMExtendedProperties" />
+<mc is_exclude="true" tp="WMGlobalVariables" />
+<mc is_exclude="true" tp="WMISCore" />
+<mc is_exclude="true" tp="WMJDBCPool" />
+<mc is_exclude="true" tp="WMJMSAliasList" />
+<mc is_exclude="true" tp="WMJNDIAliasList" />
+<mc is_exclude="true" tp="WMLogicalServerList" />
+<mc is_exclude="true" tp="WMPortList" />
+<mc is_exclude="true" tp="WMSFTPAliasList" />
+<mc is_exclude="true" tp="WMScheduledTaskList" />
+<mc is_exclude="true" tp="WMServerAliasList" />
+<mc is_exclude="true" tp="WMUserGroupList" />
+<mc is_exclude="true" tp="WMUserList" />
+<mc is_exclude="true" tp="WMWebServiceEndpointList" />
+<mc is_exclude="true" tp="WMPackage" cn="WmDoc" />
+<mc is_exclude="true" tp="WMPackage" cn="practiseFlowServices" />
+<mc is_exclude="true" tp="WMPackage" cn="practisePackage" />
+</_deleted>
+</component>
+</definition_rules>
+<promote_rules />
+
+</environment>
