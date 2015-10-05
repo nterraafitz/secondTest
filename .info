@@ -3,7 +3,7 @@
     <release version="base-00000" date="1444051532714" author="Administrator" running="true" hide="false" />
     <release version="base-00001" date="1444053721411" author="Administrator" running="false" hide="false" />
   </environment>
-  <environment name="myProject2" author="Administrator">
+  <environment name="myProject2" author="Administrator" isShared="true">
     <release version="base-00000" date="1444054121179" author="Administrator" running="true" hide="false" />
   </environment>
 </environment_list>
