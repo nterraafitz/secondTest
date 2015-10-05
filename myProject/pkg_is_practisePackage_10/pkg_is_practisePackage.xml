@@ -1,0 +1,57 @@
+<component name="practisePackage" type="WMPackage" >
+<property name="component_name" value="practisePackage"/>
+<property name="version" value="1.0" />
+<property name="build" value="10" />
+<property name="jvm" value="1.3.1" />
+<property name="publisher" value="" />
+<property name="description" value="first" />
+<property name="deploy_type" value="full" />
+<property name="enabled" value="yes" />
+<property name="browse" value="" />
+<property name="time" value="" />
+<property name="startup_services" value="" />
+<property name="shutdown_services" value="" />
+<property name="replication_services" value="" />
+<property name="dependencies" value="" />
+<component name="ns" ntype="intf" type="WMNode">
+<component name="practisePackage" ntype="intf" type="WMNode">
+<acl_info><property name='exe' value='Internal' /></acl_info><component name="adapter" ntype="intf" type="WMNode">
+</component><component name="docs" ntype="intf" type="WMNode">
+<component name="customerAddress" ntype="dtp" crc='C8BCFA471147201208A2D613C39F6995' type="WMNode">
+<property name="file_name" value="ns\practisePackage\docs\customerAddress\node.ndf" /></component><component name="customerData" ntype="dtp" crc='5DEC9D5F1B57F4D2DF09621801A06E06' type="WMNode">
+<property name="file_name" value="ns\practisePackage\docs\customerData\node.ndf" /></component><component name="orderData" ntype="dtp" crc='039DD1B417BDE361A344F2C504541373' type="WMNode">
+<property name="file_name" value="ns\practisePackage\docs\orderData\node.ndf" /></component><component name="order" ntype="dtp" crc='94765B079C5CB6DCD7EE6680FEA8A28A' type="WMNode">
+<property name="file_name" value="ns\practisePackage\docs\order\node.ndf" /></component></component><component name="services" ntype="intf" type="WMNode">
+<component name="calculateTotalValueOrder" ntype="flow" crc='9333D524AB0EB2170657F4D09CFE79EB' type="WMNode">
+<property name="file_name" value="ns\practisePackage\services\calculateTotalValueOrder\node.ndf" /></component><component name="repeat" ntype="flow" crc='0EE8CB2BE42ACFB990E94FC94D6924F8' type="WMNode">
+<property name="file_name" value="ns\practisePackage\services\repeat\node.ndf" /></component></component></component></component><component name="code" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="code" />
+  <component name="classes" type="FileStruct" is_file="false" is_bin="false">
+    <property name="file_name" value="code\classes" />
+  </component>
+  <component name="jars" type="FileStruct" is_file="false" is_bin="false">
+    <property name="file_name" value="code\jars" />
+  </component>
+  <component name="source" type="FileStruct" is_file="false" is_bin="false">
+    <property name="file_name" value="code\source" />
+  </component>
+</component><component name="config" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="config" />
+</component><component name="doc" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="doc" />
+</component><component name="lib" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="lib" />
+</component><component name="pub" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="pub" />
+  <component name="index.html" type="FileStruct" is_file="true" is_bin="false" crc="D43D8C62539F8FA414258515F99ED433">
+    <property name="file_name" value="pub\index.html" />
+  </component>
+</component><component name="resources" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="resources" />
+</component><component name="templates" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="templates" />
+</component><component name="web" type="FileStruct" is_file="false" is_bin="false">
+  <property name="file_name" value="web" />
+</component><component name="manifest.v3" type="FileStruct" is_file="true" is_bin="false" crc="5348D26CEB614B1A13C15E7DDDEFC995">
+  <property name="file_name" value="manifest.v3" />
+</component></component>
