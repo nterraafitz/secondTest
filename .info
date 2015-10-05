@@ -1,5 +1,5 @@
 <environment_list>
-  <environment name="myProject" author="Administrator">
+  <environment name="myProject" author="Administrator" isShared="true">
     <release version="base-00000" date="1444051532714" author="Administrator" running="true" hide="false" />
   </environment>
 </environment_list>
