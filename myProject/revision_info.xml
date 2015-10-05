@@ -1,0 +1,6 @@
+<share_map timestamp="1444051552072">
+<pkg_map>
+<cse name="testPackageForCi">
+<branch srv="is"><sr name="base-00000" auth="Administrator" date="1444051532714" is_env="true" bid="1.0" /></branch></cse>
+</pkg_map>
+</share_map>
