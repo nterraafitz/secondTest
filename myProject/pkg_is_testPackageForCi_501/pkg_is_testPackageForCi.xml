@@ -1,0 +1,25 @@
+<component name="testPackageForCi" type="WMPackage">
+  <property name="component_name" value="testPackageForCi" />
+  <property name="version" value="" />
+  <property name="build" value="501" />
+  <property name="jvm" value="" />
+  <property name="publisher" value="" />
+  <property name="description" value="autosave501" />
+  <property name="deploy_type" value="patch" />
+  <property name="enabled" value="yes" />
+  <property name="browse" value="" />
+  <property name="time" value="" />
+  <property name="startup_services" value="" />
+  <property name="shutdown_services" value="" />
+  <property name="replication_services" value="" />
+  <property name="dependencies" value="" />
+  <component name="ns" ntype="intf" type="WMNode">
+    <component name="testPackageForCi" ntype="intf" type="WMNode">
+      <component name="services" ntype="intf" type="WMNode">
+        <component name="new_flowservice_2" ntype="flow" crc="F8E377521BD5D4EEA182852AB32F89CA" type="WMNode">
+          <property name="file_name" value="ns\testPackageForCi\services\new_flowservice_2\node.ndf" />
+        </component>
+      </component>
+    </component>
+  </component>
+</component>
