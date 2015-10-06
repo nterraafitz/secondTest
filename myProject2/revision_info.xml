@@ -1,6 +1,0 @@
-<share_map timestamp="1444118329462">
-<pkg_map>
-<cse name="testPackageforCi2">
-<branch srv="is"><sr name="base-00000" auth="Administrator" date="1444054121179" is_env="true" bid="1.0" /><sr name="first" auth="Administrator" date="1444054164868" bid="2.0" ver="1" /><sr name="dsf" auth="Administrator" date="1444054882308" bid="3.0" ver="1" /></branch></cse>
-</pkg_map>
-</share_map>
